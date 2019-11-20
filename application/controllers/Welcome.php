@@ -28,6 +28,11 @@ class Welcome extends CI_Controller {
 		$this->load->view('contact');
 	}
 
+	public function contact()
+	{
+		$this->load->view('admin/user_login');
+	}
+
 	// public function admin()
 	// {
 	// 	$this->load->helper('overview');

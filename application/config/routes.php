@@ -53,4 +53,5 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['contact'] = 'welcome/contact';
 $route['admin'] = 'admin/overview';
+$route['login'] = 'admin/login_form';
 $route['translate_uri_dashes'] = FALSE;
