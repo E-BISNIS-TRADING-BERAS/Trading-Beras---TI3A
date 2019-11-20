@@ -27,4 +27,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('contact');
 	}
+
+	// public function admin()
+	// {
+	// 	$this->load->helper('overview');
+	// }
 }
